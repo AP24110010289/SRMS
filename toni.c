@@ -138,7 +138,6 @@ void addStudent() {
     printf("Student added successfully!\n");
 }
 
-// ========================== DISPLAY STUDENTS ======================
 void displayStudents() {
     FILE *fp = fopen(STUDENT_FILE, "r");
     if (!fp) {
@@ -249,4 +248,5 @@ void deleteStudent() {
         printf("Record Deleted!\n");
     else
         printf("Record Not Found!\n");
+
 }
